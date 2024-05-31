@@ -1,0 +1,15 @@
+.chooseInput {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.select {
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.select:focus {
+    outline: none;
+}

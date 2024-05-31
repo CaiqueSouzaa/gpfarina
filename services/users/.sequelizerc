@@ -1,0 +1,7 @@
+const { resolve } = require('path');
+
+module.exports = {
+    config: resolve(__dirname, 'config', 'database.cjs'),
+    'migrations-path': resolve(__dirname, 'api', 'database', 'migrations'),
+    'seeders-path': resolve(__dirname, 'api', 'database', 'seeds'),
+};

@@ -1,0 +1,90 @@
+{
+    "server": {
+        "error": {
+            "code": 9999,
+            "message": "Erro no lado do servidor. Tente novamente mais tarde"
+        }
+    },
+    "controllers": {
+        "users": {
+            "show": {
+                "invalid_body": {
+                    "code": 1008,
+                    "message": ""
+                },
+                "user_not_finded": {
+                    "code": 1009,
+                    "message": "UUID de usuário não localizado"
+                },
+                "sucess": {
+                    "code": 1010,
+                    "message": "Usuário obtido com sucesso"
+                }
+            },
+            "find": {
+                "invalid_body": {
+                    "code": 1006,
+                    "message": ""
+                },
+                "sucess": {
+                    "code": 1007,
+                    "message":"Usuários obtidos com sucesso"
+                }
+            },
+            "store": {
+                "invalid_body": {
+                    "code": 1001,
+                    "message": ""
+                },
+                "userlogin_in_use": {
+                    "code": 1002,
+                    "message": "Nome de login não disponível para uso"
+                },
+                "sucess": {
+                    "code": 1003,
+                    "message": "Usuário criado com sucesso"
+                }
+            },
+            "index": {
+                "invalid_body": {
+                    "code": 1004,
+                    "message": ""
+                },
+                "sucess": {
+                    "code": 1005,
+                    "message": "Usuários obtidos com sucesso"
+                }
+            },
+            "checkLogin": {
+                "invalid_body": {
+                    "code": 1011,
+                    "message": ""
+                },
+                "userlogin_in_use": {
+                    "code": 1012,
+                    "message": "Nome de login não disponível para uso"
+                },
+                "sucess": {
+                    "code": 1013,
+                    "message": "Nome de login disponível para uso"
+                }
+            },
+            "resetPassword": {
+                "invalid_body": {
+                    "code": 1014,
+                    "message": ""
+                },
+                "user_not_found": {
+                    "code": 1015,
+                    "message": "UUID de usuário não localizado"
+                },
+                "sucess": {
+                    "code": 1016,
+                    "message": "Senha de usuário atualizada com sucesso"
+                }
+            },
+            "update": {},
+            "destroy": {}
+        }
+    }
+}

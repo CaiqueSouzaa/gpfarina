@@ -1,0 +1,21 @@
+meta {
+  name: Store
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{base}}/users/create/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "password": "caique",
+    "login": "caiques",
+    "name": "Caique",
+    "surname": "Souza",
+    "reset_password": true
+  }
+}

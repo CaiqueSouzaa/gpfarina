@@ -1,0 +1,48 @@
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputSelect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputSelect span {
+    width: 200px;;
+}
+
+.inputSelect select {
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+}
+
+.input input {
+    width: 216px;
+    height: 34px;
+    border: none;
+    border-radius: 6px;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+.eyeLogo {
+    width: 20px;
+    margin-left: 5px;
+}
+
+.inputAndEye {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

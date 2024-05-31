@@ -1,0 +1,32 @@
+.layoutComponent {
+    background-color: #CACACA;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.spacePageTitle {
+    padding: 15px 15px 15px 15px;
+}
+
+.pageTitle {
+    font-size: 42px;
+}
+
+.content {
+    padding: 9px 0px 0px 0px;
+    flex: 1;
+    display: flex;
+    position: relative;
+}
+
+.main {
+    width: 100%;
+    padding-right: 9px;
+    display: flex;
+    flex-direction: column;
+}
+
+.children {
+    flex: 1;
+}
